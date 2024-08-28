@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import App from './App.jsx';
+import Tarjeta from './Tarjeta.jsx';
+import reportWebVitals from './reportWebVitals.js';
+import ContadorResultados from './Contador.jsx';
+import ListadoTareas from './ListadoTareas.jsx';
+import Formulario from './Formulario.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <ContadorResultados />
+    <ListadoTareas />
+    <Formulario />
   </React.StrictMode>
 );
 

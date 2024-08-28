@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.tarjeta-presentacion{
+  transition: 0.3s;
+  width: 40%;
+  display: inline-table;
+  border: solid;
+  border-color: rgb(0, 0, 0);
+  text-align: center;
+  border-radius: 0px 0px 20px 20px;
+  background-color: white;
+  color: black;
+  padding-bottom: 10px;
+}
+
+.contador, .lista, .formulario{
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+
