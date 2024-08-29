@@ -7,8 +7,10 @@ import reportWebVitals from './reportWebVitals.js';
 import ContadorResultados from './Contador.jsx';
 import ListadoTareas from './ListadoTareas.jsx';
 import Formulario from './Formulario.jsx';
+// Importamos componentes, metodos, estilos, etc
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+// Renderiza los componentes
 root.render(
   <React.StrictMode>
     <App />

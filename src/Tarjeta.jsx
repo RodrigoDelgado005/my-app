@@ -1,5 +1,6 @@
-import './App.css'
+import './App.css' // importamos los estilos
 
+// retornaremos por pantalla los valores de las propiedades nombre, apellido y profesion
 function Tarjeta(props) {
     return (
         <>
@@ -10,4 +11,4 @@ function Tarjeta(props) {
     );
 }
 
-export default Tarjeta
+export default Tarjeta // exportamos el componente
