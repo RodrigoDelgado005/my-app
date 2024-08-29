@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Inicio---R1
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Para realizar los puntos debemos tener instalado node, npm y react. Para instalarlo podemos seguir lo siguiente:
 
-## Available Scripts
+Paso 1: Instala Node.js y npm
+Antes de instalar React, necesitas tener Node.js y npm (Node Package Manager) instalados en tu sistema. Si aún no los has instalado, sigue estos pasos:
 
-In the project directory, you can run:
+Visita la página de descargas de Node.js en: https://nodejs.org/en/download/
+Descarga el instalador para tu sistema Windows
 
-### `npm start`
+Una vez completada la instalación, puedes comprobar que Node.js y npm están instalados abriendo un símbolo del sistema y ejecutando los siguientes comandos:
+node -v npm -v
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Paso 2: Instala Create React App
+Create React App es una herramienta de línea de comandos que simplifica el proceso de configuración de un nuevo proyecto React con una estructura y configuración de proyecto recomendadas. Para instalar Create React App de forma global, abre un símbolo del sistema y ejecuta el siguiente comando:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+npm install -g create-react-app
 
-### `npm test`
+Este comando instala Create React App en tu sistema, haciendo que esté disponible para su uso en cualquier directorio.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Paso 3: Crea un nuevo proyecto React
+Ahora que tienes Create React App instalado, puedes utilizarlo para crear un nuevo proyecto React. Para ello, abre un símbolo del sistema, dirígete al directorio en el que quieres que se aloje el proyecto y ejecuta el siguiente comando:
 
-### `npm run build`
+create-react-app my-app
+Sustituye «my-app» por el nombre que desees para tu proyecto. Create React App creará un nuevo directorio con el nombre especificado y generará un nuevo proyecto React con una estructura y configuración de proyecto recomendadas.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Paso 4: Ve al directorio del proyecto e inicia el servidor de desarrollo
+Una vez creado el proyecto, dirígete al directorio del proyecto ejecutando el siguiente comando en el símbolo del sistema:
+cd my-app
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Sustituye «my-app» por el nombre del directorio de tu proyecto. Ahora, inicia el servidor de desarrollo ejecutando el siguiente comando:
+npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Este comando inicia el servidor de desarrollo, que vigila los cambios en los archivos de tu proyecto y recarga automáticamente el navegador cuando detecta cambios.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1- Hola mundo
+Problema: Crear un componente que muestre un simple "Hola, mundo!".
+Experimentar con diferentes estilos utilizando CSS.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Con poner un 'h1' que diga Hola Mundo ya crearemos un componente que muestre ese mensaje
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2- Tarjeta de presentación
+Problema: Crear un componente que represente una tarjeta de presentación con nombre, apellido, profesión y una imagen.
+Utilizar props para pasar los datos de la tarjeta.
 
-## Learn More
+Para esto debemos crear un archivo que se llame Tarjeta.jsx, debemos renderizarlo en el archivo Index.jsx, y realizar la solucion con props en el archivo, donde luego en app.jsx le daremos un valor a estas propiedades y lo mostraremos por pantalla
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3- Contador
+Problema:Crear un componente que muestre un contador con botones para incrementar y decrementar el valor.
+Utilizar el estado para mantener el valor del contador.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Para esto debemos crear un archivo que se llame Contador.jsx, debemos renderizarlo en el archivo Index.jsx, y realizar la solucion en el archivo que creamos.
 
-### Code Splitting
+4- Lista de tareas
+Problema:Crear un componente que muestre una lista de tareas.
+Agregar tareas a la lista y marcarlas como completadas.
+Utilizar un arreglo en el estado para almacenar las tareas.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Para esto debemos crear un archivo que se llame ListadoTareas.jsx, debemos renderizarlo en el archivo Index.jsx, y realizar la solucion en el archivo que creamos.
 
-### Analyzing the Bundle Size
+5- Formulario simple
+Crear un formulario para capturar el nombre de un usuario.
+Mostrar un mensaje de bienvenida cuando se envíe el formulario.
+Utilizar el estado para almacenar el valor del input.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Para esto debemos crear un archivo que se llame Formulario.jsx, debemos renderizarlo en el archivo Index.jsx, y realizar la solucion en el archivo que creamos.
+# R1
